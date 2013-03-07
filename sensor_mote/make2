@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cp ./sensor_conf2.h ./sensor_conf.h
+make
+make program
+make clean
